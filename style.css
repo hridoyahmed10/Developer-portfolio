@@ -9,7 +9,7 @@ h1{
 .color{
     color:orange;
 }
-section{
+.all-section{
     display:flex;
     padding-bottom:150px;
 }
@@ -35,24 +35,36 @@ section{
     background-image:url(images/top-banner.png);
     background-repeat: no-repeat;
 }
-/* .dream-info{
-    width:50%; 
-    padding-left:2%;
-}
-.dream-info img{
-    width:80%;
-}
-.dream-info p{
-    text-transform:capitalize;
-}
-.head{
-    font-weight: bold;
-    color:rgb(255, 173, 8);
-} */
 
 .Dream{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position:right;
 
+}
+.Experiences{
+    display:flex;
+    padding-bottom: 150px;
+    
+}
+.Experience{
+    width:40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    box-shadow: 10px 10px 10px 5px gray;
+    border-left:5px solid blueviolet;
+}
+.border{
+    border-left:5px solid rgb(255, 115, 7);
+}
+
+.Experiences{
+    background-image:url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+
+footer p{
+    text-align:center;
 }
